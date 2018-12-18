@@ -1,0 +1,10 @@
+body {
+  background: #013243;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+}
