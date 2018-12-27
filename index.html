@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>I Heart Nails</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css"> 
-</head>
-<body>
-    <div class="overlay">
-        <h1>coming soon ❤️</h1>        
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- <base href="/" /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <script type="text/javascript" src="./redirect.js"></script>
+    <script type="text/javascript">
+      recieveRedirect();
+    </script>
+
+    <script type="text/javascript" src="./templates/home.js"></script>
+    <script type="text/javascript" src="./templates/about.js"></script>
+    <script type="text/javascript" src="./templates/appointment.js"></script>
+    <script type="text/javascript" src="./templates/contact.js"></script>
+    <script type="text/javascript" src="./templates/services.js"></script>
+  </head>
+  <body>
+    <!-- <h1>coming soon ❤️</h1> -->
+    <div id="top-bar" class="wrapper">
+      <section class="container">
+        <div class="top-info float-right">
+          <h2 class="phone float-right">
+            For Appointments: <a href="tel:+6136954664">613-695-4664</a>
+          </h2>
+        </div>
+        <h2 class="tagline">Nail Salon in Ottawa, Ontario</h2>
+      </section>
     </div>
-</body>
+
+    <div id="page-wrapper" class="wrapper">
+      <header class="wrapper">
+        <section class="container"><div id="logo">I HEART NAILS</div></section>
+        <nav>
+          <div>
+            <ul id="menu-top-navigation-1" class="nav-menu">
+              <li class="menu-item">
+                <a href="#" onclick="onNavClick('/about')">About Us</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" onclick="onNavClick('/services')">Services</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" onclick="onNavClick('/appointment')"
+                  >Make an appointment</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" onclick="onNavClick('/contact')">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- CONTENT -->
+      <div id="content" class="content"></div>
+      <!-- <div id="id" class="wrapper">
+        <section class="container relative">
+          <div id="home-banner"></div>
+        </section>
+      </div> -->
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
 </html>
