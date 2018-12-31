@@ -42,12 +42,14 @@
 
     <div id="page-wrapper" class="wrapper">
       <header class="wrapper">
-        <section class="container"><div id="logo">I HEART NAILS</div></section>
+        <section class="container">
+          <div id="logo" onclick="onNavClick('/')">I HEART NAILS</div>
+        </section>
         <nav>
           <div>
             <ul id="menu-top-navigation-1" class="nav-menu">
               <li class="menu-item">
-                <a href="#" onclick="onNavClick('/about')">About Us</a>
+                <a onclick="onNavClick('/about')">About Us</a>
               </li>
               <li class="menu-item">
                 <a href="#" onclick="onNavClick('/services')">Services</a>
@@ -65,14 +67,77 @@
         </nav>
       </header>
       <!-- CONTENT -->
-      <div id="content" class="content"></div>
+      <div id="content" class="wrapper"></div>
       <!-- <div id="id" class="wrapper">
         <section class="container relative">
           <div id="home-banner"></div>
         </section>
       </div> -->
     </div>
+    <footer class="wrapper">
+      <!-- #footer-widgets -->
+      <div id="footer-widgets">
+        <section class="container">
+          <div class="col upper footer-left">
+            <aside id="text-4" class="widget_text">
+              <h5 class="widget-title upper">Visit Us</h5>
+              <div class="textwidget">
+                <p>
+                  1541 Merivale Rd<br />
+                  Ottawa, ON K2G5W1
+                </p>
+                <h4><a href="tel:+16136954664">6136954664</a></h4>
+              </div>
+            </aside>
+          </div>
+          <div class="col upper footer-middle">
+            <aside id="text-5" class="widget_text">
+              <h5 class="widget-title upper">Get Social</h5>
+              <div class="textwidget">
+                <p class="sm-icons">
+                  <a
+                    class="float-left instagram"
+                    href="http://instagram.com/ihearnails.ottawa"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i></a
+                  ><a
+                    class="float-left facebook"
+                    href="https://www.facebook.com/iheartnails.ottawa/"
+                    target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </p>
+              </div>
+            </aside>
+          </div>
+          <div class="col upper footer-right">
+            <aside id="text-6" class="widget_text">
+              <h5 class="widget-title upper">Hours</h5>
+              <div class="textwidget">
+                <p>
+                  Monday - Friday: 10:00am - 7:00pm<br />
+                  Saturday: 10:00am - 5:00pm<br />
+                  Sunday: 11:00am - 4:00pm
+                </p>
+                <p>Call for Appointments</p>
+              </div>
+            </aside>
+          </div>
+          <div class="clear"></div>
+        </section>
+      </div>
 
+      <!-- #footer-nav -->
+      <div id="footer-nav">
+        <section class="container">
+          <p class="float-left no-margin">
+            Site design by
+            <a href="https://richardison.com/" target="_blank">rison</a>
+          </p>
+          <div class="clear"></div>
+        </section>
+      </div>
+    </footer>
     <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
