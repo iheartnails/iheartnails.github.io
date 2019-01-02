@@ -1,6 +1,8 @@
 let appointmentPage = `
     <section class="container relative"> 
-        <div id="page-banner"></div>
+        <div id="page-banner">
+            <img src="https://www.beautyboxechopark.com/wp-content/uploads/2015/02/appointment-banner-background_07-29-15.jpg">
+        </div>
         <div class="title-wrapper">
             <h2 class="page-title">Make an Appointment</h2>
         </div>

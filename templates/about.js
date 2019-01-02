@@ -1,6 +1,8 @@
 let aboutPage = `
     <section class="container relative"> 
-        <div id="page-banner"></div>
+        <div id="page-banner">
+            <img src="http://dnnailspa.ca/images/slideshow/slides/slide2.png">
+        </div>
         <div class="title-wrapper">
             <h2 class="page-title"> About Us </h2>
         </div>
