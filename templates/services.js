@@ -99,7 +99,7 @@ let servicesPage = `
             <div class="home-box box1">
                 <h6> Hair Removal </h6>
                 <p> 
-                    Eyebrow $29
+                    Eyebrow $10
                     <br>
                     Upper Lip $6
                     <br>
