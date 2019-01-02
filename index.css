@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #454545;
 }
 
 a {
@@ -31,11 +32,6 @@ Theme Name: Beauty Box Echo Park
 Theme URI: http://www.beautyboxechopark.com
 Description: Theme for Beauty Box Echo Park by Zbra Studios
 */
-
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /* Base Tags
 ====================================================*/
@@ -740,6 +736,7 @@ div.sharedaddy .sd-content {
 /* Footer
 ====================================================*/
 footer {
+  height: 50px;
   padding-bottom: 12px;
 }
 footer .sm-icons a {
@@ -1014,6 +1011,7 @@ a.parade-button:hover {
   #content {
     float: none !important;
     width: 100% !important;
+    min-height: 100% !important;
     margin-bottom: 30px;
   }
   #sidebar {
