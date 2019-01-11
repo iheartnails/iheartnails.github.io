@@ -137,7 +137,7 @@ let servicesPage = `
                 <p>
                     Basic 1/2 Hour $40
                     <br>
-                    Basic 1 Hour $60
+                    Basic 1 Hour $70
                 </p>              
             </div>
 
@@ -146,7 +146,7 @@ let servicesPage = `
                 <br>
                 <h6> Eyelash Extensions </h6>
                 <p>
-                    Synthetic Classic $50
+                    Synthetic Classic $65
                     <br>
                     Synthetic Volume $90
                     <br>
